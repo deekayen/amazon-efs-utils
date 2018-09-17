@@ -10,7 +10,7 @@ node('use1ddbuild04||use1ddbuild05') {
 
 make rpm'''
     }
-	stage ('post-clean') {
-		cleanWs()
-	}
+//	stage ('post-clean') {
+//		cleanWs()
+//	}
 }
