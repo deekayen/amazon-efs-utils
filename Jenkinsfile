@@ -1,4 +1,4 @@
-node('use1ddbuild04||use1ddbuild05') {
+node('linux') {
 	stage ('pre-clean') {
 		cleanWs()
 	}
